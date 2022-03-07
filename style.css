@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #333333;
+    --cor2: #BFBFBF;
+    --cor3: #737373;
+    --cor4: #808080;
+    --cor5: #595959;
+    --bar-top-height: 75px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor2);
+}
+header {
+    background-color: white;
+    height: var(--bar-top-height);
+}
+.container {
+    background-image: url(imagem/capa.jpeg);
+    background-size: 100% 100%;
+    position: absolute;
+    height: 20vh;
+    width: 20vh;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -5%);
+}
+.criminal {
+    background-image: url('imagem/criminal.jpg');
+    width: 100%;
+    height: calc(100vh - var(--bar-top-height));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
+}
+@media (max-width: 900px) {
+    .criminal {
+        background-position: 15% 0;
+    }
+}
