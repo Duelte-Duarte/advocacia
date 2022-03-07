@@ -49,6 +49,7 @@ header {
 }
 .criminal h1 {
     color: white;
+    text-shadow: 1px 1px 0px black;;
     font-weight: bold;
     font-family: "Bebas Neue";
     font-size: 3vw;
@@ -77,4 +78,29 @@ header {
 }
 .criminal > div:hover > p {
     display: block;
+}
+.etapa {
+    height: 100vh;
+}
+.etapa h1 {
+    color: var(--cor1);
+    text-shadow: 1px 1px 0px black;;
+    font-weight: bold;
+    font-family: "Bebas Neue";
+    font-variant: small-caps;
+    font-size: 3vw;
+    text-align: center;
+    padding: 10vh;
+}
+.etapa h2 {
+    display: flexbox;
+    margin: auto;
+    font-size: 2vw;
+    text-align: center;
+    color: var(--cor1);
+}
+.etapa p {
+    display: flexbox;
+    font-size: 1vw;
+    text-align: center;
 }
