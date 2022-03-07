@@ -49,6 +49,8 @@ header {
 }
 .criminal h1 {
     color: white;
+    min-width: 481px;
+    text-align: center;
     text-shadow: 1px 1px 0px black;;
     font-weight: bold;
     font-family: "Bebas Neue";
@@ -93,15 +95,19 @@ header {
     padding: 10vh;
 }
 .etapa h2 {
-    display: flexbox;
-    margin: auto;
     font-size: 2vw;
     text-align: center;
     color: var(--cor1);
     flex: 1 1 200px;
 }
 .etapa p {
-    display: flexbox;
     font-size: 1vw;
     text-align: center;
+}
+.etapa div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
 }
