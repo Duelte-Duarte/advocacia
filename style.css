@@ -49,12 +49,11 @@ header {
 }
 .criminal h1 {
     color: white;
-    min-width: 481px;
     text-align: center;
     text-shadow: 1px 1px 0px black;;
     font-weight: bold;
     font-family: "Bebas Neue";
-    font-size: 3vw;
+    font-size: 3em;
     font-variant: small-caps;
     padding: 10px;
     position: absolute;
@@ -70,7 +69,7 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 1.5vw;
+    font-size: 1.5em;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.404);
     text-shadow: 1px 1px 0px black;
@@ -90,24 +89,22 @@ header {
     font-weight: bold;
     font-family: "Bebas Neue";
     font-variant: small-caps;
-    font-size: 3vw;
+    font-size: 3em;
     text-align: center;
     padding: 10vh;
 }
 .etapa h2 {
-    font-size: 2vw;
+    font-size: 2em;
     text-align: center;
     color: var(--cor1);
-    flex: 1 1 200px;
 }
 .etapa p {
-    font-size: 1vw;
+    font-size: 1em;
     text-align: center;
+    line-height: 2em;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .etapa div {
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-    align-items: center;
 }
