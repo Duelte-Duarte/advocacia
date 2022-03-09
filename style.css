@@ -76,7 +76,7 @@ section#img1 {
     display: block;
 }
 .etapa {
-    height: 100vh;
+    height: 120vh;
 }
 .etapa h1 {
     color: var(--cor1);
@@ -96,7 +96,8 @@ section#img1 {
 .etapa p {
     font-size: 1em;
     text-align: center;
-    line-height: 1.5em;
+    font-size: small;
+    line-height: 2em;
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -131,4 +132,16 @@ section#img1 {
     .row .col {
         width: calc(100% / 1);
     }
+}
+.atuacao {
+    height: 100vh;
+    padding: 40px;
+}
+.atuacao h1 {
+    text-align: center;
+    padding: 20px;
+}
+.atuacao ul {
+    list-style-position: inside;
+    columns: 2;
 }
