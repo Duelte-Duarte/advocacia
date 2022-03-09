@@ -101,10 +101,38 @@ header {
 .etapa p {
     font-size: 1em;
     text-align: center;
-    line-height: 2em;
+    line-height: 1.5em;
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.etapa div {
-    flex-wrap: wrap;
+.container2 {
+    margin: auto;
+    width: 1080px;
+}
+.row {
+    display: flex;
+}
+.row .col {
+    width: calc(100%/4);
+    padding: 10px;
+}
+@media (max-width: 1080px) {
+    .container2 {
+        width: 100%;
+    }
+}
+@media (max-width: 1080px) {
+    .row .col {
+        width: calc(100%/3);
+    }
+}
+@media (max-width: 720px) {
+    .row .col {
+        width: calc(100%/2);
+    }
+}
+@media (max-width: 414px) {
+    .row .col {
+        width: calc(100% / 2);
+    }
 }
