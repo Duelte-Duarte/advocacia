@@ -33,17 +33,16 @@ header {
     top: 5%;
     transform: translate(-50%, -5%);
 }
-.criminal {
+section#img1 {
     background-image: url('imagem/criminal.jpg');
     width: 100%;
     height: calc(100vh - var(--bar-top-height));
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
 }
 @media (max-width: 900px) {
-    .criminal {
+    section#img1 {
         background-position: 15% 0;
     }
 }
@@ -53,7 +52,7 @@ header {
     text-shadow: 1px 1px 0px black;;
     font-weight: bold;
     font-family: "Bebas Neue";
-    font-size: 3em;
+    font-size: 2em;
     font-variant: small-caps;
     padding: 10px;
     position: absolute;
@@ -61,16 +60,12 @@ header {
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.criminal p {
+.criminal > div > p {
     position: absolute;
-    left: 50%;
-    top: 70%;
-    transform: translate(-50%, -70%);
+    top: 350px;
     color: white;
     text-align: center;
-    padding: 10px;
     font-size: 1.5em;
-    display: inline-block;
     background-color: rgba(0, 0, 0, 0.404);
     text-shadow: 1px 1px 0px black;
 }
@@ -133,6 +128,6 @@ header {
 }
 @media (max-width: 414px) {
     .row .col {
-        width: calc(100% / 2);
+        width: calc(100% / 1);
     }
 }
