@@ -76,7 +76,7 @@ section#img1 {
     display: block;
 }
 .etapa {
-    height: 120vh;
+    height: 100vh;
 }
 .etapa h1 {
     color: var(--cor1);
@@ -103,7 +103,7 @@ section#img1 {
 }
 .container2 {
     margin: auto;
-    width: 1080px;
+    width: 100%;
 }
 .row {
     display: flex;
@@ -182,5 +182,12 @@ aside {
     font-size: 1.5em;
 }
 footer {
-    height: 100vh;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+}
+footer img {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
 }
