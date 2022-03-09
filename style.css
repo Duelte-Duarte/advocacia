@@ -171,11 +171,15 @@ aside {
     width: 400px;
     padding: 10px;
     position: relative;
-    top: 40%;
+    top: 25%;
     left: 10%;
     margin: auto;
     border: 1px solid darkblue;
     border-radius: 10px;
+    color: var(--cor1);
+    font-family: "Bebas Neue";
+    font-variant: small-caps;
+    font-size: 1.5em;
 }
 footer {
     height: 100vh;
