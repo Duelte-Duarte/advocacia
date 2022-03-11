@@ -75,9 +75,6 @@ section#img1 {
 .criminal > div:hover > p {
     display: block;
 }
-.etapa {
-    height: 100vh;
-}
 .etapa h1 {
     color: var(--cor1);
     text-shadow: 1px 1px 0px black;;
@@ -107,6 +104,7 @@ section#img1 {
 }
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 .row .col {
     box-sizing: border-box;
@@ -134,14 +132,12 @@ section#img1 {
     }
 }
 .atuacao {
-    height: 90vh;
     width: auto;
     padding: 40px;
-    display: inline-block;
 }
 .atuacao h1 {
     text-align: center;
-    padding: 20px;
+    padding-bottom: 20px;
     text-shadow: 1px 1px 0px black;;
     font-weight: bold;
     font-family: "Bebas Neue";
@@ -165,6 +161,11 @@ section#foto {
     background-repeat: no-repeat;
     background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
+}
+@media (max-width: 700px) {
+    .atuacao ul {
+        columns: 1;
+    }
 }
 aside {
     background-color: white;
