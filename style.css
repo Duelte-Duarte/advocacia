@@ -153,7 +153,6 @@ section#foto {
     background-size: contain;
     background-position-x: 100px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
 }
 @media (max-width: 700px) {
