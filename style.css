@@ -167,7 +167,7 @@ aside {
 @media (min-width: 840px) {
     aside {
         margin: auto;
-        width: 30vh;
+        width: 40vh;
     }
 }
 aside p {
