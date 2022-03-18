@@ -151,7 +151,6 @@ section.rodape {
 section#foto {
     background-image: url(imagem/3.jpeg);
     background-size: contain;
-    background-position-x: 100px;
     background-repeat: no-repeat;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
 }
@@ -161,9 +160,15 @@ section#foto {
     }
 }
 aside {
-    width: 30vh;
-    margin: auto;
+    width: 20vh;
+    margin-left: auto;
     padding-top: 150px;
+}
+@media (min-width: 840px) {
+    aside {
+        margin: auto;
+        width: 30vh;
+    }
 }
 aside p {
     display: inline-block;
