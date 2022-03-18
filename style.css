@@ -62,7 +62,7 @@ section#img1 {
 }
 .criminal > div > p {
     position: absolute;
-    top: 400px;
+    top: 65vh;
     color: white;
     text-align: center;
     font-size: 1.5em;
