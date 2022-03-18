@@ -69,12 +69,6 @@ section#img1 {
     background-color: rgba(0, 0, 0, 0.404);
     text-shadow: 1px 1px 0px black;
 }
-.criminal > div > p {
-    display: none;
-}
-.criminal > div:hover > p {
-    display: block;
-}
 .etapa h1 {
     color: var(--cor1);
     text-shadow: 1px 1px 0px black;;
